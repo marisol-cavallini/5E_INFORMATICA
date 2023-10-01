@@ -10,7 +10,7 @@ function convertYamlToJson($yamlFile, $jsonFile) {
     file_put_contents($jsonFile, $jsonData);//scrive il json all'interno del file specificato
 }
 // Percorsi dei file
-$yamlFile = 'Studenti.yml';
+$yamlFile = 'Studenti.yaml';
 $jsonFile = 'output.json';
 echo "File convertito in JSON:\n";
 convertYamlToJson($yamlFile, $jsonFile);//richiamo la funzione 
